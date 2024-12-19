@@ -1,11 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAVELING</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="home-icon"></div>
+      <nav>
+        <a href="#main-content-header">Home</a>
+        <a href="#our-package-selection">Our Packages</a>
+        <a href="#contactForm">Call Us</a>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <!-- Main Content Header -->
+      <header id="main-content-header" class="content-header">
+        <h1>Your Trusted Travel Agent</h1>
+        <h3>Your Happiness is Our Happiness</h3>
+      </header>
+
+      <section class="main-container">
+          <aside class="main-item">
+            <div class="banner-img">
+              <div class="slide">
+                <img src="assets/gambar 2.jpg" alt="Slide 1" />
+                <img src="assets/gambar 3.jpg" alt="Slide 2" />
+                <img src="assets/gambar 4.jpg" alt="Slide 3" />
+                <img src="assets/gambar 5.jpg" alt="Slide 4" />
+              </div>
+            </div>
+          </aside>
+          
+          <article class="main-item">
+            <div class="teks">
+              <div class="feature-section">
+                <h4>
+                  Certainly! Here are some examples of benefit statements to follow up on a headline, showcasing the advantages of your service or product:
+                </h4>
+
+              </br>
+  
+                <div class="feature-list">
+                  <div class="feature-item">
+                    <div class="feature-number"></div>
+                    <p>
+                      Experience the peace of mind that comes with our guarantee."
+                    </p>
+                  </div>
+                  <div class="feature-item">
+                    <div class="feature-number"></div>
+                    <p>
+                      Join a community of satisfied customers.
+                    </p>
+                  </div>
+                  <div class="feature-item">
+                    <div class="feature-number"></div>
+                    <p>
+                      Invest in your future with a solution that delivers lasting results.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            
+          </article>
+
+      </section>
+
+      <!-- Packages Section -->
+      <section id="our-package-selection">
+        <header class="content-header our-package-header">
+          <h1>Our Packages</h1>
+      </section>
+
+
+    <!-- Closing Section -->
+    <section id="closing-argument-sec" class="closing-argument">
+      <div>
+        <h1>Why do we use it?</h1>
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+
+        <br />
+
+        <div class="button-container">
+          <button>JOIN</button>
+        </div>
+      </div>
+    </section>
+
+
+
+      <!-- Contact Form -->
+        <form id="contactForm" class="main-item">
+          <h2>Contact Us</h2>
+          <p>Sales akan menghubungi Anda 1x24 jam setelah data kami terima.</p>
+
+          <label for="name">Your Name:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="First and last name"
+            required
+          />
+
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="example@email.com"
+            required
+          />
+
+          <label for="interest">What are you interested in?</label>
+          <select id="interest" required>
+            <option value="" disabled selected>Select option</option>
+            <option value="package">Travel Package</option>
+            <option value="service">Additional Service</option>
+            <option value="support">Customer Support</option>
+          </select>
+
+          <button type="submit">SEND</button>
+        </form>
+
+        
+      
+    </main>
+      
+    <!-- Contact Form -->
+    <footer>
+      <span>Made by FOXES@2024</span>
+   </footer>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
